@@ -1,0 +1,38 @@
+ASSIGNMENT 2 STATISTICAL ANALYSIS - PART A
+============================================================
+
+Total samples: 840
+Prompt 2 runs: 280
+
+Gender Chi-Square Test
+vulnerable_label   No  Yes
+gender                    
+Male              538  262
+Non-binary         22   18
+chi2 = 2.0508, dof = 1, p = 0.152128
+
+Age t-test
+Yes mean=31.321, std=1.894, n=280
+No mean=31.643, std=2.209, n=560
+t = -2.1906, p = 0.028844
+
+Experience t-test
+Yes mean=5.925, std=1.359, n=280
+No mean=6.198, std=1.698, n=560
+t = -2.5211, p = 0.011927
+
+Education Chi-Square Test
+vulnerable_label      No  Yes
+education_group              
+Group1_HS_Bachelors  305  185
+Group2_Masters_PhD   252   88
+Other                  3    7
+chi2 = 18.8553, dof = 2, p = 0.000080
+
+Global Region Chi-Square Test
+vulnerable_label   No  Yes
+global_region             
+Global_North      370  220
+Global_South      190   60
+chi2 = 13.3610, dof = 1, p = 0.000257
+
